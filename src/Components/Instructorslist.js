@@ -90,7 +90,7 @@ class="w-6 h-6">
                 <div className='font-semibold p-[1rem] text-center border-[1px] border-indigo-600 border-collapse'>ID</div>
                 <div className='font-semibold p-[1rem] text-center border-[1px] border-indigo-600 border-collapse'>Name</div>
                 <div className='font-semibold p-[1rem] text-center border-[1px] border-indigo-600 border-collapse'>Class</div>
-                <div className='font-semibold p-[1rem] text-center border-[1px] border-indigo-600 border-collapse'>RollNo</div>
+                <div className='font-semibold p-[1rem] text-center border-[1px] border-indigo-600 border-collapse'>Snb | Ski</div>
                 {
                     pupil.length === 0 ? (<div className='col-span-4 text-center bg-[#D3EAFD] p-[2rem] text-[red] font-bold'>
                         No Instructors Selected
