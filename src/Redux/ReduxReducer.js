@@ -10,13 +10,13 @@ export const instructorReducer = function (state = initialState, action) {
        case ADD: {
         let idExists = false;
         let newInstructor = {};
-        state.instructors.map((instructor) => {
+        state.instructors.forEach((instructor) => {
             if(instructor.id === action.payload){
                 idExists = true;
             }
         });
         if (!idExists){
-           people.instructors.map((peep) => {
+           people.instructors.forEach((peep) => {
               if (peep.id === action.payload) {
                 newInstructor = peep;
               } 
